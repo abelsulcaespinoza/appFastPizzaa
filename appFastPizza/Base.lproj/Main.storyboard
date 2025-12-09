@@ -12,7 +12,7 @@
         <scene sceneID="4KY-6t-Tei">
             <objects>
                 <viewController id="YRX-fS-WOA" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="w8n-Yp-NAS">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="w8n-Yp-NAS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -479,6 +479,13 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Um-pW-xnw">
+                                <rect key="frame" x="240" y="369" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xqu-9Q-Tpe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
